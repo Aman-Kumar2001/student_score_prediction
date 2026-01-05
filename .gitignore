@@ -1,6 +1,15 @@
+# data
+data/raw/*
+data/processed/*
+
 # python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # notebooks
 .ipynb_checkpoints/
+
+# env
+.env
