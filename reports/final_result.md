@@ -1,0 +1,3 @@
+<h1>Results Summary</h1>
+
+After experimenting with multiple regression models and validation strategies, the final solution was built using a HistGradientBoostingRegressor trained with out-of-fold (OOF) cross-validation. This approach helped reduce validation bias and improved generalization. Further performance gains were achieved by training the same model with multiple random seeds and averaging their predictions, which reduced model variance. Compared to baseline and single-model approaches, this strategy consistently achieved the lowest RMSE on the Kaggle leaderboard, with a final public score of 8.719. This final model was selected due to its strong performance, stability across folds, and robustness to overfitting.
